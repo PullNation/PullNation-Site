@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Rankings</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Nationwide Rankings</h1>
+    <nav><a href="index.html">Home</a> | <a href="submit.html">Submit a Pull</a></nav>
+  </header>
+
+  <section>
+    <label>Filter by Class:
+      <select id="classFilter">
+        <option value="all">All</option>
+        <option value="2.6 Diesel">2.6 Diesel</option>
+        <option value="3.0 Limited Pro">3.0 Limited Pro</option>
+        <option value="Mod Tractor">Mod Tractor</option>
+      </select>
+    </label>
+
+    <table>
+      <thead>
+        <tr><th>Rank</th><th>Truck</th><th>Points</th><th>Class</th></tr>
+      </thead>
+      <tbody id="leaderboard"></tbody>
+    </table>
+  </section>
+
+  <footer>© 2025 PullNation</footer>
+  <script src="scripts.js"></script>
+</body>
+</html>

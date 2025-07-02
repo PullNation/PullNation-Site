@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <title>Submit Pull</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Submit a Pull</h1>
+    <nav><a href="index.html">Home</a> | <a href="rankings.html">Rankings</a></nav>
+  </header>
+
+  <form id="pullForm">
+    <label>Event Name: <input type="text" required /></label>
+    <label>Date: <input type="date" required /></label>
+    <label>Location: <input type="text" required /></label>
+    <label>Class Pulled In:
+      <select required>
+        <option>2.6 Diesel</option>
+        <option>3.0 Limited Pro</option>
+        <option>Mod Tractor</option>
+      </select>
+    </label>
+    <label>Total Competitors: <input type="number" min="3" required /></label>
+    <label>Your Finish Position: <input type="number" required /></label>
+    <label>Truck Name: <input type="text" required /></label>
+    <button type="submit">Submit Pull</button>
+  </form>
+
+  <footer>© 2025 PullNation</footer>
+</body>
+</html>
