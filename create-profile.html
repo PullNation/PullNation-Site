@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <title>Create Profile</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Create Your PullNation Profile</h1>
+    <nav><a href="index.html">Home</a> | <a href="profile.html">My Profile</a></nav>
+  </header>
+
+  <form id="createProfileForm">
+    <label>Truck Name: <input type="text" required /></label>
+    <label>Owner Name: <input type="text" required /></label>
+    <label>Class:
+      <select required>
+        <option>2.6 Diesel</option>
+        <option>3.0 Limited Pro</option>
+        <option>Mod Tractor</option>
+      </select>
+    </label>
+    <label>Location: <input type="text" /></label>
+    <label>Upload Truck Photo: <input type="file" accept="image/*" /></label>
+    <button type="submit">Save Profile</button>
+  </form>
+
+  <footer>© 2025 PullNation</footer>
+</body>
+</html>
